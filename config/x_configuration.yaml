@@ -1,0 +1,30 @@
+# -----------------------------------------------
+# Configuration
+# -----------------------------------------------
+
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: Barracks
+  # Location required to calculate the time the sun rises and sets
+  #latitude: !secret secret_latitude
+  #longitude: !secret secret_longitude
+  #elevation: !secret secret_elevation
+  #unit_system: imperial
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  #time_zone: America/Chicago
+  # customize: !include customize.yaml
+
+# Enables the frontend
+frontend:
+#  extra_html_url:
+#    - /local/hass-bha-icons.html
+
+# Checks for available updates
+updater:
+  reporting: no
+
+# Track the sun
+sun:
+
+# Discovery of devices automatically if supported
+discovery:

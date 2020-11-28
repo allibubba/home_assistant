@@ -1,0 +1,29 @@
+{
+    "version": 1,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "a4a958850ef3355018e72bbc03456b99"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "met"
+                    ]
+                ],
+                "manufacturer": "Met.no",
+                "model": "Forecast",
+                "name": "Forecast",
+                "sw_version": null,
+                "entry_type": "service",
+                "id": "a223ae9d8e62876d29e1d4dbdb643cdc",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null
+            }
+        ],
+        "deleted_devices": []
+    }
+}
